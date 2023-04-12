@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+.container {
+    position: relative;
+    border: 1px solid purple;
+}
+
+canvas {
+    display: inline-block;
+}
+
+#buildPoints {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#enemiesSpawned {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
